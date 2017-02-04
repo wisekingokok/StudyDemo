@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fl_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    tools:context="wisekingokok.com.androiddesignsupportlibrary.snack.SnackbarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout android:id="@+id/fl_test_space"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <Button android:id="@+id/snackbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Snackbar1"
+            android:onClick="snackbar1"/>
+
+        <Button android:id="@+id/snackbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Snackbar2"
+            android:onClick="snackbar2"/>
+
+    </LinearLayout>
+
+</FrameLayout>

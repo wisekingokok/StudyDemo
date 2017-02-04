@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    tools:context="wisekingokok.com.androiddesignsupportlibrary.AndroidDesignSupportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button android:id="@+id/snackbar"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Snackbar"
+            android:onClick="snackbar"/>
+
+        <Button android:id="@+id/textInputLayout"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="TextInputLayout"
+            android:onClick="textInputLayout"/>
+
+        <Button android:id="@+id/floatingactionbutton"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="FloatingActionButton"
+            android:onClick="floatingactionbutton"/>
+
+        <Button android:id="@+id/tabLayout"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="TabLayout"
+            android:onClick="tablayout"/>
+
+        <Button android:id="@+id/navigationView"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="NavigationView"/>
+
+        <Button android:id="@+id/appBarLayout"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="AppBarLayout"/>
+
+        <Button android:id="@+id/collapsingToolbarLayout"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="CollapsingToolbarLayout"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fl_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    tools:context="wisekingokok.com.androiddesignsupportlibrary.snack.SnackbarActivity">
+
+
+    <android.support.design.widget.CoordinatorLayout android:id="@+id/space"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light">
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_anchor="@id/space"
+        app:layout_anchorGravity="center"
+        android:src="@android:drawable/ic_lock_idle_low_battery"
+        android:layout_margin="15dp"
+        app:elevation="16dp"
+        app:pressedTranslationZ="19dp"
+        app:fabSize="mini"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:layout_margin="15dp"
+        app:elevation="8dp"
+        app:pressedTranslationZ="12dp"
+        android:onClick="click"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="10dp"
+        app:backgroundTint="#ff87ffeb"
+        app:rippleColor="#33728dff"
+        android:src="@android:drawable/ic_btn_speak_now"
+        />
+
+</FrameLayout>
