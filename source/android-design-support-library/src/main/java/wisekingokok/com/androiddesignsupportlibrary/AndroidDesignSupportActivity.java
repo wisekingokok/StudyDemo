@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import wisekingokok.com.androiddesignsupportlibrary.floatingactionbutton.FloatingActionButtonActivity;
+import wisekingokok.com.androiddesignsupportlibrary.navigationview.NavigationViewActivity;
 import wisekingokok.com.androiddesignsupportlibrary.snack.SnackbarActivity;
 import wisekingokok.com.androiddesignsupportlibrary.tablayout.TabLayoutActivity;
 import wisekingokok.com.androiddesignsupportlibrary.textInputLayout.TextInputLayoutActivity;
@@ -36,6 +37,11 @@ public class AndroidDesignSupportActivity extends AppCompatActivity {
 
     public void tablayout(View v){
         Intent intent = new Intent(this, TabLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void navigationView(View v){
+        Intent intent = new Intent(this, NavigationViewActivity.class);
         startActivity(intent);
     }
 
