@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import wisekingokok.com.androiddesignsupportlibrary.appbarlayout.AppBarLayoutActivity;
 import wisekingokok.com.androiddesignsupportlibrary.floatingactionbutton.FloatingActionButtonActivity;
 import wisekingokok.com.androiddesignsupportlibrary.navigationview.NavigationViewActivity;
 import wisekingokok.com.androiddesignsupportlibrary.snack.SnackbarActivity;
@@ -42,6 +43,11 @@ public class AndroidDesignSupportActivity extends AppCompatActivity {
 
     public void navigationView(View v){
         Intent intent = new Intent(this, NavigationViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void appBarLayout(View v){
+        Intent intent = new Intent(this, AppBarLayoutActivity.class);
         startActivity(intent);
     }
 

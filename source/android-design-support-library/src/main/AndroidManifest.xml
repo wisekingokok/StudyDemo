@@ -12,6 +12,8 @@
         <activity android:name=".floatingactionbutton.FloatingActionButtonActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
         <activity android:name=".tablayout.TabLayoutActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
         <activity android:name=".navigationview.NavigationViewActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".appbarlayout.AppBarLayoutActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".coordinatorlayout.CoordinatorLayoutActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
 
     </application>
 

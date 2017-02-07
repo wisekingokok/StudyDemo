@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_lock_idle_low_battery"
+        android:title="ifRoom1"
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@android:drawable/ic_lock_idle_low_battery"
+        android:title="ifRoom2"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_item1"
+        android:title="never1"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:title="never2"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+
+
+</menu>
+
