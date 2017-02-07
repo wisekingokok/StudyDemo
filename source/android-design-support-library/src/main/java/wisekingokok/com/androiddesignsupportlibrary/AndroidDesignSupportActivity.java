@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import wisekingokok.com.androiddesignsupportlibrary.appbarlayout.AppBarLayoutActivity;
+import wisekingokok.com.androiddesignsupportlibrary.coordinatorlayout.CoordinatorLayoutActivity;
 import wisekingokok.com.androiddesignsupportlibrary.floatingactionbutton.FloatingActionButtonActivity;
 import wisekingokok.com.androiddesignsupportlibrary.navigationview.NavigationViewActivity;
 import wisekingokok.com.androiddesignsupportlibrary.snack.SnackbarActivity;
@@ -48,6 +49,11 @@ public class AndroidDesignSupportActivity extends AppCompatActivity {
 
     public void appBarLayout(View v){
         Intent intent = new Intent(this, AppBarLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void collapsingLayout(View v){
+        Intent intent = new Intent(this, CoordinatorLayoutActivity.class);
         startActivity(intent);
     }
 

@@ -5,7 +5,7 @@ import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * author: 林彦君(<a href="mailto:linyanjun@danlu.com">linyanjun@danlu.com</a>)<br/>
@@ -16,7 +16,7 @@ import android.widget.Button;
  * 内容描述区域
  * </p>
  */
-public class MyBehavior extends CoordinatorLayout.Behavior<Button> {
+public class MyBehavior extends CoordinatorLayout.Behavior<TextView> {
 
     private int width;
 
@@ -27,14 +27,14 @@ public class MyBehavior extends CoordinatorLayout.Behavior<Button> {
     }
 
     @Override
-    public boolean layoutDependsOn(CoordinatorLayout parent, Button child, View dependency) {
-        //如果dependency是TempView的实例，说明它就是我们所需要的Dependency
-        return dependency instanceof TempView;
+    public boolean layoutDependsOn(CoordinatorLayout parent, TextView child, View dependency) {
+        //返回false表示child不依赖dependency，ture表示依赖
+        return true;
     }
 
     //每次dependency位置发生变化，都会执行onDependentViewChanged方法
     @Override
-    public boolean onDependentViewChanged(CoordinatorLayout parent, Button btn, View dependency) {
+    public boolean onDependentViewChanged(CoordinatorLayout parent, TextView btn, View dependency) {
 
         //根据dependency的位置，设置Button的位置
 

@@ -5,4 +5,7 @@ AppBarLayout继承自LinearLayout，布局方向为垂直方向。所以你可�
 把容器类的组件全部作为AppBar。
 
 ### Tips
+
 设置setSupportActionBar后，可能无法显示出菜单
+
+AppBarLayout必须是CoordinatorLayout的直接子View

@@ -79,6 +79,17 @@
             android:text="AppBarLayout"
             android:onClick="appBarLayout"/>
 
+        <Button android:id="@+id/collapsingLayout"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"
+            android:text="CollapsingLayout"
+            android:onClick="collapsingLayout"/>
+
         <Button android:id="@+id/collapsingToolbarLayout"
             android:textAllCaps="false"
             android:layout_width="match_parent"
